@@ -65,7 +65,7 @@ def checkout(l):
         'city': fake.city(),
         'state': fake.state_abbr(),
         'country': fake.country(),
-        'credit_card_number': fake.credit_card_number(card_type="mastercard"),
+        'credit_card_number': fake.credit_card_number(card_type="amex"),
         'credit_card_expiration_month': random.randint(1, 12),
         'credit_card_expiration_year': random.randint(current_year, current_year + 70),
         'credit_card_cvv': f"{random.randint(100, 999)}",
